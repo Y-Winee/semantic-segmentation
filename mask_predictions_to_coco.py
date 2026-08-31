@@ -14,7 +14,7 @@ INPUT_DIR = Path("./ds/v2-without-annotated")
 OUTPUT_DIR = Path("./v2-predictions")
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 MODEL_WEIGHTS = "./best_deeplabv3_hitl.pth"
-NO_CLASSES = 4
+NO_CLASSES = 3
 
 CATEGORIES_NAMES = {
     1 : "road",
