@@ -11,13 +11,7 @@ env/
 .venv/
 cv_env/
 
-# =========================
-# Trained models
-# =========================
-*.pth
-*.pt
-*.ckpt
-*.onnx
+
 
 # =========================
 # Jupyter
@@ -56,3 +50,7 @@ cv_env/
 # =========================
 ds/v2-without-annotated/
 ds/v2-110/
+
+
+temp_video.mp4
+*.mp4
